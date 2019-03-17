@@ -1,0 +1,30 @@
+{
+  "name": "html_minify",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "npx gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akbaruddin/gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akbaruddin/gulp/issues"
+  },
+  "homepage": "https://github.com/akbaruddin/gulp.git#readme",
+  "devDependencies": {
+    "clean-css": "^4.2.1",
+    "gulp": "^4.0.0",
+    "uglify-js": "^3.4.9"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
