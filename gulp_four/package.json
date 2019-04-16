@@ -1,0 +1,40 @@
+{
+  "name": "gulp_four",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx gulp dev",
+    "prod": "npx gulp build --production",
+    "prod-html": "npx gulp buildViews --production",
+    "prod-js": "npx gulp buildScripts --production",
+    "prod-css": "npx gulp buildStyles --production",
+    "dev": "npx gulp build --development",
+    "dev-html": "npx gulp buildViews --development",
+    "dev-css": "npx gulp buildStyles --development",
+    "dev-js": "npx gulp buildScripts --development",
+    "clean": "npx gulp clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "del": "^4.1.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-livereload": "^4.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
