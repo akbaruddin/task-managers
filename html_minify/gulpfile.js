@@ -1,4 +1,4 @@
-const { src, dest } = require('gulp');
+const { src, dest, series } = require('gulp');
 const htmlmin = require('gulp-htmlmin');
 
 function htmlTask() {
@@ -11,4 +11,4 @@ function htmlTask() {
     .pipe(dest('dist'));
 }
 
-exports.default = htmlTask
+exports.default = series(htmlTask)

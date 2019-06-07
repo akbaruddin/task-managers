@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "npx gulp.js"
+    "start": "npx gulp"
   },
   "repository": {
     "type": "git",
