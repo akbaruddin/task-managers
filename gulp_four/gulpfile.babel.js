@@ -5,7 +5,6 @@ import livereload from 'gulp-livereload'
 import sass from 'gulp-sass'
 import cleanCSS from 'gulp-clean-css'
 import pug from 'gulp-pug'
-import gulpif from 'gulp-if'
 import babel from 'gulp-babel'
 import yargs from 'yargs'
 import concat from 'gulp-concat'
@@ -32,7 +31,7 @@ const argv = yargs.argv
 const production = !!argv.production
 
 // Main Tasks
-// Styles 
+// Styles
 export const buildStyles = () => {
   return src(sources.styles)
     .pipe(sass.sync().on('error', sass.logError))
@@ -56,7 +55,7 @@ export const buildViews = () => {
 // Scripts
 export const buildScripts = () => {
   return src(sources.scripts)
-    .pipe(babel({ 
+    .pipe(babel({
       presets: [
         [
           '@babel/preset-env', {
