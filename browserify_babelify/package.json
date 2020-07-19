@@ -25,7 +25,7 @@
     "gulp-buffer": "^0.0.2",
     "gulp-tap": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prettier": "^1.19.1"
   }
 }
