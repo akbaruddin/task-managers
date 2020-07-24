@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/akbaruddin/gulp.git#readme",
   "devDependencies": {
-    "clean-css": "^4.2.1",
-    "gulp": "^4.0.0",
-    "uglify-js": "^3.4.9"
+    "clean-css": "^4.2.3",
+    "gulp": "^4.0.2",
+    "uglify-js": "^3.10.0"
   },
   "dependencies": {
     "gulp-htmlmin": "^5.0.1"
