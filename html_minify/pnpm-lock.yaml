@@ -3,7 +3,7 @@ dependencies:
 devDependencies:
   clean-css: 4.2.3
   gulp: 4.0.2
-  uglify-js: 3.10.0
+  uglify-js: 3.11.5
 lockfileVersion: 5.1
 packages:
   /ansi-colors/1.1.0:
@@ -2122,13 +2122,13 @@ packages:
     dev: true
     resolution:
       integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-  /uglify-js/3.10.0:
+  /uglify-js/3.11.5:
     dev: true
     engines:
       node: '>=0.8.0'
     hasBin: true
     resolution:
-      integrity: sha512-Esj5HG5WAyrLIdYU74Z3JdG2PxdIusvj6IWHMtlyESxc7kcDz7zYlYjpnSokn1UbpV0d/QX9fan7gkCNd/9BQA==
+      integrity: sha512-btvv/baMqe7HxP7zJSF7Uc16h1mSfuuSplT0/qdjxseesDU+yYzH33eHBH+eMdeRXwujXspaCTooWHQVVBh09w==
   /uglify-js/3.4.10:
     dependencies:
       commander: 2.19.0
@@ -2352,4 +2352,4 @@ specifiers:
   clean-css: ^4.2.3
   gulp: ^4.0.2
   gulp-htmlmin: ^5.0.1
-  uglify-js: ^3.10.0
+  uglify-js: ^3.11.5
