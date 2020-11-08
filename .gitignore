@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.log
+dist/
+static/
+*.log
+package-lock.json
+pnpm-lock.yaml
