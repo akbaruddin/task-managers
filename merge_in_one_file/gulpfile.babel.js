@@ -6,7 +6,6 @@ import autoprefixer from "autoprefixer";
 import flexfix from "postcss-flexbugs-fixes";
 import cssnano from "cssnano";
 import cleanCSS from "gulp-clean-css";
-import * as SASSCOMPILER from "node-sass";
 import concat from "gulp-concat";
 import through from 'through2';
 import replace from 'gulp-string-replace';
@@ -16,7 +15,6 @@ import htmlmin from 'gulp-html-minifier';
 import browserSync from "browser-sync";
 import csscomb from 'gulp-csscomb';
 import fs from "fs";
-sass.compiler = SASSCOMPILER;
 
 const browser = browserSync.create();
 
