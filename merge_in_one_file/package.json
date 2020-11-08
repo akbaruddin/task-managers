@@ -22,7 +22,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-string-replace": "^1.1.2",
     "gulp-uglify": "^3.0.2",
-    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-flexbugs-fixes": "^5.0.1",
     "sass": "^1.29.0",
     "through2": "^4.0.2"
   },
